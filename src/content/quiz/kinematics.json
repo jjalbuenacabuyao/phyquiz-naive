@@ -1,0 +1,55 @@
+[    {
+  "question": "According to Newton's first law of motion, an object at rest will remain at rest unless ____",
+  "choices": [
+    {
+      "text": "a force is applied to it",
+      "correct": true
+    },
+    {
+      "text": "it has mass"
+    },
+    {
+      "text": "it is in motion"
+    },
+    {
+      "text": "it is in space."
+    }
+  ]
+},
+  {
+    "question": "Newton's second law of motion states that the acceleration of an object is directly proportional to ____",
+    "choices": [
+      {
+        "text": "its velocity."
+      },
+      {
+        "text": "the net force acting on it."
+      },
+      {
+        "text": "its mass.",
+        "correct": true
+      },
+      {
+        "text": "the displacement it covers."
+      }
+    ]
+  },
+  {
+    "question": "If an object experiences no net force, according to Newton's second law, its acceleration is ____",
+    "choices": [
+      {
+        "text": "zero.",
+        "correct": true
+      },
+      {
+        "text": "infinite."
+      },
+      {
+        "text": "constant."
+      },
+      {
+        "text": "negative."
+      }
+    ]
+  }
+]
