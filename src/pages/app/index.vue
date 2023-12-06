@@ -95,17 +95,17 @@ definePage({
         </p>
       </div>
     </div>
-    <div class="card mt-3 flex">
-      <i-math-symbols class="h-28 w-28 shrink-0 rounded-lg bg-gray-600 p-2 text-gray-500" />
+    <router-link class="card mt-3 flex" to="/simulations">
+      <i-bulb class="h-28 w-28 shrink-0 rounded-lg bg-gray-600 p-2 text-gray-500" />
       <div class="ml-4 flex flex-col justify-center gap-2">
         <h1 class="text-2xl font-semibold leading-none">
           Online Simulations
         </h1>
         <p>
-          Test your knowledge about Kinematics and Newton's Laws of Motion
+          Learn through exploration and discovery using PhET simulations.
         </p>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 

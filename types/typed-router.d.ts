@@ -43,6 +43,7 @@ declare module 'vue-router/auto/routes' {
     'Home': RouteRecordInfo<'Home', '/app', Record<never, never>, Record<never, never>>,
     '/app/quizzes/': RouteRecordInfo<'/app/quizzes/', '/app/quizzes', Record<never, never>, Record<never, never>>,
     '/app/quizzes/[topic]': RouteRecordInfo<'/app/quizzes/[topic]', '/app/quizzes/:topic', { topic: ParamValue<true> }, { topic: ParamValue<false> }>,
+    'Simulations': RouteRecordInfo<'Simulations', '/app/simulations', Record<never, never>, Record<never, never>>,
     'Topics': RouteRecordInfo<'Topics', '/app/topics', Record<never, never>, Record<never, never>>,
   }
 }
