@@ -1,6 +1,8 @@
 <script setup lang="tsx">
+import people from '@/content/people.json'
+
 definePage({
-  name: 'Home',
+  name: 'PhyQuiz',
 })
 </script>
 
@@ -57,32 +59,23 @@ definePage({
         <i-users class="text-xl" />
         People
       </h1>
-      <div class="mt-3">
-        <div class="flex rounded-xl bg-gray-600 p-2">
-          <i-angle class="h-24 w-24 shrink-0 text-gray-500" />
-          <div class="ml-6 flex flex-col justify-center gap-2">
+      <router-link v-for="item in people" class="mt-3" :to="`/people/${item.id}`">
+        <div class="flex rounded-xl bg-gray-600 ">
+          <img class="h-28 w-28 rounded-l-xl object-cover object-top" :src="item.front">
+
+          <div class="ml-4 flex flex-col justify-center">
             <h1 class="text-xl font-semibold leading-none">
-              Franz Reuleaux
+              {{ item.name }}
             </h1>
-            <p>
-              Test your knowledge about Kinematics and Newton's Laws of Motion
-            </p>
+            <div class="mt-1">
+              "{{ item.title }}"
+            </div>
+            <div class="text-gray-400">
+              {{ item.period }}
+            </div>
           </div>
         </div>
-      </div>
-      <div class="mt-3">
-        <div class="flex rounded-xl bg-gray-600 p-2">
-          <i-angle class="h-24 w-24 shrink-0 text-gray-500" />
-          <div class="ml-6 flex flex-col justify-center gap-2">
-            <h1 class="text-xl font-semibold leading-none">
-              Isaac Newton
-            </h1>
-            <p>
-              Test your knowledge about Kinematics and Newton's Laws of Motion
-            </p>
-          </div>
-        </div>
-      </div>
+      </router-link>
     </div>
     <div class="card mt-3 flex">
       <i-math-symbols class="h-28 w-28 shrink-0 rounded-lg bg-gray-600 p-2 text-gray-500" />

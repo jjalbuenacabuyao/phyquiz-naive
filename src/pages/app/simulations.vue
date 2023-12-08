@@ -18,7 +18,7 @@ const show = computed({
 </script>
 
 <template>
-  <div class="p-4">
+  <div class="flex flex-col gap-3 p-4">
     <button v-for="item in simulations" :key="item.id" class="flex flex-col items-center rounded-xl bg-gray-600" @click="selected = item.id">
       <img class="rounded-t-xl" :src="item.image">
       <div class="flex flex-col justify-center">
@@ -29,7 +29,7 @@ const show = computed({
     </button>
   </div>
 
-  <n-drawer v-model:show="show" height="100%" placement="top">
+  <n-drawer v-model:show="show" height="100%" placement="bottom">
     <n-drawer-content body-content-style="padding: 0" closable>
       <iframe
         allowfullscreen

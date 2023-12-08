@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Franz Reuleaux",
+    "title": "Father of Kinematics",
+    "front": "/images/people/franz-front.jpg",
+    "head": "/images/people/franz-head.jpg",
+    "origin": "German",
+    "period": "1829 - 1905",
+    "summary": "This review surveys late 19th century kinematics and the theory of machines as seen through the contributions of the German engineering scientist, Franz Reuleaux (1829-1905), often called the \"Father of Kinematics.\" Extremely famous in his time and one of the first honorary members of ASME, Reuleaux was largely forgotten in much of modern mechanics literature in English until the recent rediscovery of some of his work. In addition to his contributions to kinematics, we review Reuleaux's ideas about design synthesis, optimization and aesthetics in design, and in engineering education, as well as his early contributions to biomechanics. A unique aspect of this review has been the use of Reuleaux's kinematic models at Cornell University and in the Deutsches Museum, in Munich, as a tool to rediscover lost engineering and kinematic knowledge of 19th century history of machines.",
+    "works": "As a student, Franz Reuleaux already began writing his book \"Die Konstruktionlehre für den Maschinenbau\", which he worked on until the 1860s. In the piece, he pursues the approach of determining the dimensions of mechanical components according to the laws of elastic tension. In his handbook on use in machine designs entitled \"The Constructor\", he revisits this approach and eventually completes it in his textbook on theoretical kinematics, which was published in 1875 and immediately translated into English, French and Italian. The second part entitled \"Die praktischen Beziehungen der Kinematik zur Geometrie und Mechanik\" followed in 1900.",
+    "holdings": "Information on Franz Reuleaux is available in the Historical School Board Archive. The minutes can also be searched online on Schulratsprotokolle Online, based on the corresponding keyword. The ETH Zurich University Archives also contain a biographical file on the scientist, complete with obituaries. Twenty-nine works by Reuleaux are listed in the ETH Library holdings, which can be ordered via the ETH Library's Search Portal. Works published prior to 1900 can be consulted in the Collections and Archives reading room."
+  },
+  {
+    "id": 2,
+    "name": "Isaac Newton",
+    "title": "Father of Physics",
+    "front": "/images/people/isaac-front.jpg",
+    "head": "/images/people/isaac-head.jpg",
+    "origin": "England",
+    "period": "1643 - 1727",
+    "summary": "Isaac Newton is popularly remembered as the man who saw an apple fall from a tree, and was inspired to invent the theory of gravity. If you have grappled with elementary physics then you know that he invented calculus and the three laws of motion upon which all of mechanics is based. More fundamentally, Newton’s mathematical approach has become so basic to all of physics that he is generally regarded as the father of the clockwork universe: the first, and perhaps the greatest, physicist.",
+    "works": "Newton was deeply opposed to the mechanistic conception of the world. A secretive alchemist and heretical theologian, he performed countless experiments with crucibles and furnaces in his Cambridge chambers, analyzing the results in unmistakably alchemical terms. His written work on the subject ran to more than a million words, far more than he ever produced on calculus or mechanics. Obsessively religious, he spent years correlating biblical prophecy with historical events. He became deeply convinced that Christian doctrine had been deliberately corrupted by the false notion of the trinity, and developed a vicious contempt for conventional (trinitarian) Christianity and for Roman Catholicism in particular. Newton's religious and alchemical interests were not tidily separated from his scientific ones. He believed that God mediated the gravitational force, and opposed any attempt to give a mechanistic explanation of chemistry or gravity, since that would diminish the role of God. He consequently conceived such a hatred of Descartes, on whose foundations so many of his achievements were built, that at times he refused even to write his name.",
+    "holdings": "Invented the reflecting telescope.\nProposed new theory of light and color.\nDiscovered calculus.\nDeveloped three laws of motion.\n"
+  }
+]

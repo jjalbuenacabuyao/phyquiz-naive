@@ -2,7 +2,7 @@
 import questions from '@/content/quiz/kinematics.json'
 
 const route = useRoute()
-const topic = route.params.topic
+const id = route.params.id
 
 const randomizedQuestions = questions.sort(() => Math.random() - 0.5)
 const answers = ref([])

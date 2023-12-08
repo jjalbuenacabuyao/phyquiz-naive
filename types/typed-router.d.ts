@@ -40,9 +40,11 @@ import type {
 declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/app': RouteRecordInfo<'/app', '/', Record<never, never>, Record<never, never>>,
-    'Home': RouteRecordInfo<'Home', '/app', Record<never, never>, Record<never, never>>,
+    'PhyQuiz': RouteRecordInfo<'PhyQuiz', '/app', Record<never, never>, Record<never, never>>,
+    '/app/people/': RouteRecordInfo<'/app/people/', '/app/people', Record<never, never>, Record<never, never>>,
+    '/app/people/[id]': RouteRecordInfo<'/app/people/[id]', '/app/people/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     '/app/quizzes/': RouteRecordInfo<'/app/quizzes/', '/app/quizzes', Record<never, never>, Record<never, never>>,
-    '/app/quizzes/[topic]': RouteRecordInfo<'/app/quizzes/[topic]', '/app/quizzes/:topic', { topic: ParamValue<true> }, { topic: ParamValue<false> }>,
+    '/app/quizzes/[id]': RouteRecordInfo<'/app/quizzes/[id]', '/app/quizzes/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'Simulations': RouteRecordInfo<'Simulations', '/app/simulations', Record<never, never>, Record<never, never>>,
     'Topics': RouteRecordInfo<'Topics', '/app/topics', Record<never, never>, Record<never, never>>,
   }
