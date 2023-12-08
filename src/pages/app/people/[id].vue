@@ -2,27 +2,47 @@
 import people from '@/content/people.json'
 
 const route = useRoute()
-const id = route.params.id
+const id = Number(route.params.id)
+
+const person = people.find(item => item.id === id)
 </script>
 
 <template>
-  <div class="p-4">
-    <router-link v-for="item in people" class="mb-3" :to="`/people/${item.id}`">
-      <div class="flex rounded-xl bg-gray-600">
-        <img class="rounded-xl object-cover object-top" :src="item.front">
-
-        <div class="ml-4 flex flex-col justify-center">
-          <h1 class="text-xl font-semibold leading-none">
-            {{ item.name }}
-          </h1>
-          <div class="mt-1">
-            "{{ item.title }}"
-          </div>
-          <div class="text-gray-400">
-            {{ item.period }}
-          </div>
+  <div>
+    <img class="aspect-square w-full object-cover object-top" :src="person.head">
+    <div class="w-full bg-gray-700">
+      <div class="p-4">
+        <h1 class="text-2xl font-medium">
+          {{ person.name }}
+        </h1>
+        <div>
+          {{ person.origin }}, {{ person.period }}
         </div>
+
+        <p class="mt-2">
+          {{ person.summary }}
+        </p>
       </div>
-    </router-link>
+    </div>
+    <div class="p-4">
+      <div class="bg-gray-700 p-3">
+        <h2 class="flex items-center gap-3 text-lg">
+          <i-bulb />
+          Works
+        </h2>
+        <p class="mt-2">
+          {{ person.works }}
+        </p>
+      </div>
+      <div class="mt-4 bg-gray-700 p-3">
+        <h2 class="flex items-center gap-3 text-lg">
+          <i-award />
+          Holdings
+        </h2>
+        <p class="mt-2">
+          {{ person.holdings }}
+        </p>
+      </div>
+    </div>
   </div>
 </template>

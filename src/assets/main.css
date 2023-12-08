@@ -10,3 +10,19 @@
 hr {
     @apply border-gray-700 my-4;
 }
+
+.prose h2, .prose h3, .prose h4, .prose blockquote {
+    @apply text-center;
+}
+
+.prose a, .prose strong {
+    @apply !text-red-400;
+}
+
+.prose img {
+    @apply mx-auto p-4 bg-white;
+}
+
+.prose hr {
+    @apply border-gray-300 border-t;
+}

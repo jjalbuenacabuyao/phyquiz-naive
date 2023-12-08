@@ -6,6 +6,8 @@ definePage({
 })
 
 const isShowing = ref(false)
+const route = useRoute()
+const isNamed = computed(() => route.name[0] !== '/')
 
 function renderLink(to: string, label: string) {
   return () => <router-link onClick={() => isShowing.value = false} to={to}>{label}</router-link>
@@ -17,7 +19,7 @@ const options: MenuOption[] = [
     icon: () => <i-smart-home />,
   },
   {
-    label: renderLink('/topics', 'Topics'),
+    label: renderLink('/topic', 'Topics'),
     key: 'Topics',
     icon: () => <i-book />,
   },
@@ -55,11 +57,14 @@ const options: MenuOption[] = [
 <template>
   <n-layout has-sider position="absolute">
     <n-layout-header bordered class="flex h-14 items-center">
-      <app-header-item @click="isShowing = !isShowing">
+      <app-header-item v-if="isNamed" @click="isShowing = !isShowing">
         <i-menu-2 class="h-6 w-6" />
       </app-header-item>
-      <div class="!my-0 px-3 font-medium">
-        {{ $route.name }}
+      <app-header-item v-else @click="router.go(-1)">
+        <i-arrow-narrow-left class="h-6 w-6" />
+      </app-header-item>
+      <div v-if="isNamed" class="!my-0 px-3 font-medium">
+        {{ route.name }}
       </div>
     </n-layout-header>
     <n-layout class="!top-14 @container" embedded position="absolute">

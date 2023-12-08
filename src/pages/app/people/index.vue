@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import people from '@/content/people.json'
 
+definePage({
+  name: 'People',
+})
+
 const route = useRoute()
 const { id } = route.params
 </script>

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "kinematics",
+    "name": "Kinematics",
+    "description": "Kinematics aims to provide a description of the spatial position of bodies or systems of material particles, the rate at which the particles are moving (velocity), and the rate at which their velocity is changing (acceleration). When the causative forces are disregarded, motion descriptions are possible only for particles having constrained motion—i.e., moving on determinate paths. In unconstrained, or free, motion, the forces determine the shape of the path.",
+    "lessons": [
+      "Describing Motion with Words",
+      "Describing Motion with Diagrams",
+      "Describing Motion with Position vs. Time Graphs",
+      "Describing Motion with Velocity vs. Time Graphs",
+      "Free Fall and the Acceleration of Gravity",
+      "Describing Motion with Equations"
+    ]
+  }
+]

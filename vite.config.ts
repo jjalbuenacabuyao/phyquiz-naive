@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import VueRouter from 'unplugin-vue-router/vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
+import Markdown from 'unplugin-vue-markdown/vite'
 import Components from 'unplugin-vue-components/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -22,11 +23,13 @@ export default defineConfig({
       dts: 'types/typed-router.d.ts',
     }),
     vue({
+      include: [/\.vue$/, /\.md$/],
       script: {
         defineModel: true,
       },
     }),
     vueJsx(),
+    Markdown({}),
     Components({
       dirs: ['src/components', 'src/modules'],
       directoryAsNamespace: true,

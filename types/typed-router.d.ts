@@ -41,12 +41,16 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/app': RouteRecordInfo<'/app', '/', Record<never, never>, Record<never, never>>,
     'PhyQuiz': RouteRecordInfo<'PhyQuiz', '/app', Record<never, never>, Record<never, never>>,
-    '/app/people/': RouteRecordInfo<'/app/people/', '/app/people', Record<never, never>, Record<never, never>>,
+    '/app/history/': RouteRecordInfo<'/app/history/', '/app/history', Record<never, never>, Record<never, never>>,
+    '/app/history/[id]': RouteRecordInfo<'/app/history/[id]', '/app/history/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    'People': RouteRecordInfo<'People', '/app/people', Record<never, never>, Record<never, never>>,
     '/app/people/[id]': RouteRecordInfo<'/app/people/[id]', '/app/people/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
-    '/app/quizzes/': RouteRecordInfo<'/app/quizzes/', '/app/quizzes', Record<never, never>, Record<never, never>>,
-    '/app/quizzes/[id]': RouteRecordInfo<'/app/quizzes/[id]', '/app/quizzes/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    '/app/quiz/': RouteRecordInfo<'/app/quiz/', '/app/quiz', Record<never, never>, Record<never, never>>,
+    '/app/quiz/[id]': RouteRecordInfo<'/app/quiz/[id]', '/app/quiz/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'Simulations': RouteRecordInfo<'Simulations', '/app/simulations', Record<never, never>, Record<never, never>>,
-    'Topics': RouteRecordInfo<'Topics', '/app/topics', Record<never, never>, Record<never, never>>,
+    'Topics': RouteRecordInfo<'Topics', '/app/topic', Record<never, never>, Record<never, never>>,
+    '/app/topic/kinematics/': RouteRecordInfo<'/app/topic/kinematics/', '/app/topic/kinematics', Record<never, never>, Record<never, never>>,
+    '/app/topic/kinematics/[page]': RouteRecordInfo<'/app/topic/kinematics/[page]', '/app/topic/kinematics/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
   }
 }
 
