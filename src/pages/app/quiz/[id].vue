@@ -28,6 +28,13 @@ async function next() {
       state: quizState.value,
       quizId,
       createdAt: new Date().toISOString(),
+      score: quizState.value.reduce((acc, curr) => {
+        const question = questions[curr.questionNumber]
+        const correctAnswer = question.choices.find(c => c.correct)
+        if (curr.answer === correctAnswer.text)
+          return acc + 1
+        return acc
+      }, 0),
     }
 
     const history = JSON.parse(localStorage.getItem('history') || '[]')

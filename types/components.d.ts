@@ -16,6 +16,7 @@ declare module 'vue' {
     IBook: typeof import('~icons/tabler/book')['default']
     IBulb: typeof import('~icons/tabler/bulb')['default']
     IClock: typeof import('~icons/tabler/clock')['default']
+    IDownload: typeof import('~icons/tabler/download')['default']
     IInfoCircle: typeof import('~icons/tabler/info-circle')['default']
     IMathSymbols: typeof import('~icons/tabler/math-symbols')['default']
     IMenu2: typeof import('~icons/tabler/menu2')['default']
