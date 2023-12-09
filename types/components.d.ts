@@ -19,6 +19,7 @@ declare module 'vue' {
     IInfoCircle: typeof import('~icons/tabler/info-circle')['default']
     IMathSymbols: typeof import('~icons/tabler/math-symbols')['default']
     IMenu2: typeof import('~icons/tabler/menu2')['default']
+    IPlayerPlayFilled: typeof import('~icons/tabler/player-play-filled')['default']
     IQuestionMark: typeof import('~icons/tabler/question-mark')['default']
     ISmartHome: typeof import('~icons/tabler/smart-home')['default']
     IUsers: typeof import('~icons/tabler/users')['default']

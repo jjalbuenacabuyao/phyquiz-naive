@@ -5,14 +5,18 @@ const route = useRoute()
 const router = useRouter()
 const quizId = route.params.id
 
-const randomizedQuestions = questions.sort(() => Math.random() - 0.5)
-const quizState = ref([])
+const randomizedQuestions = questions.map((q, i) => ({ ...q, id: i })).sort(() => Math.random() - 0.5)
+const quizState = ref<Array<{
+  questionNumber: number
+  answer: string
+}>>([])
 const selectedAnswer = ref()
 const currentQuestion = ref(randomizedQuestions[0])
+const message = useMessage()
 
 async function next() {
   quizState.value.push({
-    ...currentQuestion.value,
+    questionNumber: currentQuestion.value.id,
     answer: selectedAnswer.value,
   })
   selectedAnswer.value = undefined
@@ -22,7 +26,7 @@ async function next() {
     const status = {
       id,
       state: quizState.value,
-      quiz: quizId,
+      quizId,
       createdAt: new Date().toISOString(),
     }
 
@@ -31,6 +35,7 @@ async function next() {
     localStorage.setItem('history', JSON.stringify(history))
 
     await nextTick()
+    message.success('Quiz completed!')
     router.push(`/history/${id}`)
   }
   else {

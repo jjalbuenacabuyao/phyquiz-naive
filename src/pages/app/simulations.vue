@@ -5,21 +5,18 @@ definePage({
   name: 'Simulations',
 })
 
-const selected = ref(undefined)
-const show = computed({
-  get() {
-    return !!selected.value
-  },
-  set(value) {
-    if (!value)
-      selected.value = undefined
-  },
-})
+const selected = ref<object>()
+const show = ref(false)
+
+function select(id: string) {
+  selected.value = simulations.find((s: any) => s.id === id)
+  show.value = true
+}
 </script>
 
 <template>
   <div class="flex flex-col gap-3 p-4">
-    <button v-for="item in simulations" :key="item.id" class="flex flex-col items-center rounded-xl bg-gray-600" @click="selected = item.id">
+    <button v-for="item in simulations" :key="item.id" class="flex flex-col items-center rounded-xl bg-gray-600" @click="select(item.id)">
       <img class="rounded-t-xl" :src="item.image">
       <div class="flex flex-col justify-center">
         <h2 class="py-4 text-center text-xl font-semibold">
@@ -30,11 +27,11 @@ const show = computed({
   </div>
 
   <n-drawer v-model:show="show" height="100%" placement="bottom">
-    <n-drawer-content body-content-style="padding: 0" closable>
+    <n-drawer-content body-content-style="padding: 0" closable :title="selected.title">
       <iframe
         allowfullscreen
         class="h-full w-full"
-        src="https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html"
+        :src="selected.url"
       />
     </n-drawer-content>
   </n-drawer>
