@@ -73,7 +73,9 @@ const options: MenuOption[] = [
   </n-layout>
   <n-drawer v-model:show="isShowing" display-directive="show" placement="left" :width="300">
     <n-drawer-content body-content-style="padding: 0">
-      <div class="h-32 w-full bg-gray-200" />
+      <div class="bg-sky-500 p-4">
+        <img class="w-40" src="/images/phyquiz.png">
+      </div>
       <n-menu
         class="mt-2"
         v-bind="{ options }"
