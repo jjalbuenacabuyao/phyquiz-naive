@@ -18,7 +18,9 @@
     "description": "Newton's laws of motion are three physical laws that, together, laid the foundation for classical mechanics. They describe the relationship between a body and the forces acting upon it, and its motion in response to those forces. More precisely, the first law defines the force qualitatively, the second law offers a quantitative measure of the force, and the third asserts that a single isolated force doesn't exist. These three laws have been expressed in several ways, over nearly three centuries, and can be summarised as follows.",
     "lessons": [
       "Newton's First Law of Motion",
-      "Force and its Representation"
+      "Force and its Representation",
+      "Newton's Second Law of Motion",
+      "Newton's Third Law of Motion"
     ]
   }
 ]

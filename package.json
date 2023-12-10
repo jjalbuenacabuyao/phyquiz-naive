@@ -7,9 +7,12 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "cap:run android": "cap run android"
   },
   "dependencies": {
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/core": "^5.5.1",
     "@tailwindcss/container-queries": "^0.1.1",
     "@vueuse/core": "^10.1.2",
     "@vueuse/head": "^1.1.26",
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.5",
+    "@capacitor/cli": "^5.5.1",
     "@iconify-json/tabler": "^1.1.79",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.2.5",
