@@ -10,8 +10,8 @@ definePage({
 <template>
   <div class="p-4">
     <router-link class="card" to="/quiz">
-      <div class="h-28 w-28 shrink-0 rounded-lg bg-gray-600 pl-1 pt-2">
-        <i-player-play-filled class="h-24 w-24 text-gray-500" />
+      <div class="h-28 w-28 shrink-0 rounded-lg bg-gradient-to-br from-sky-400 via-red-200 to-violet-800 pl-1 pt-2">
+        <i-player-play-filled class="h-24 w-24 text-white" />
       </div>
       <div class="flex flex-col justify-center gap-2">
         <h1 class="text-2xl font-semibold leading-none">
@@ -30,7 +30,8 @@ definePage({
       </h1>
       <router-link v-for="item in topics" :to="`/topic/${item.id}`">
         <div class="flex rounded-xl bg-gray-600 p-4">
-          <i-angle class="h-24 w-24 shrink-0 rounded-full bg-red-500 p-4" />
+          <i-angle v-if="item.id === 'kinematics'" class="h-24 w-24 shrink-0 rounded-full bg-red-500 p-4" />
+          <i-arrows-exchange-2 v-else class="h-24 w-24 shrink-0 rounded-full bg-blue-500 p-4" />
 
           <div class="ml-6 flex flex-col justify-center gap-2">
             <h1 class="text-xl font-semibold leading-none">
@@ -67,18 +68,18 @@ definePage({
       </router-link>
     </div>
     <div class="card mt-3 flex">
-      <i-math-symbols class="h-28 w-28 shrink-0 rounded-lg bg-gray-600 p-2 text-gray-500" />
+      <i-math-symbols class="h-28 w-28 shrink-0 rounded-lg bg-white p-2 text-green-600" />
       <div class="flex flex-col justify-center gap-2">
         <h1 class="text-2xl font-semibold leading-none">
           Formulas
         </h1>
         <p>
-          Test your knowledge about Kinematics and Newton's Laws of Motion
+          Quick reference for all the formulas you need to know.
         </p>
       </div>
     </div>
     <router-link class="card mt-3 flex" to="/simulations">
-      <i-bulb class="h-28 w-28 shrink-0 rounded-lg bg-gray-600 p-2 text-gray-500" />
+      <i-bulb class="h-28 w-28 shrink-0 rounded-lg bg-white p-2 text-amber-500" />
       <div class="flex flex-col justify-center gap-2">
         <h1 class="text-2xl font-semibold leading-none">
           Online Simulations

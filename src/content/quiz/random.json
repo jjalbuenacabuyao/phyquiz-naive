@@ -1,0 +1,884 @@
+[
+  {
+    "question": "An object starts with an initial velocity of 20 m/s, undergoes an acceleration of 6 m/s² and accelerates for 8 seconds. What is the final velocity?",
+    "choices": [
+      {
+        "text": "75 m/s"
+      },
+      {
+        "text": "68 m/s",
+        "correct": true
+      },
+      {
+        "text": "45 m/s"
+      },
+      {
+        "text": "38 m/s"
+      }
+    ]
+  },
+  {
+    "question": "Jorex is riding his motorcycle down a straight road. She starts from rest and accelerates at a constant rate of 2 m/s² for 5 seconds. What is the displacement of Jorex at the end of this time interval?",
+    "choices": [
+      {
+        "text": "50 m",
+        "correct": true
+      },
+      {
+        "text": "60 m"
+      },
+      {
+        "text": "70 m"
+      },
+      {
+        "text": "80 m"
+      }
+    ]
+  },
+  {
+    "question": "A given two points on a straight line and you want to find the slope of that line. The coordinates of the two points are (4 s, 8 m/s) and (12 s , 20 m/s).",
+    "choices": [
+      {
+        "text": "1/3"
+      },
+      {
+        "text": "3/2",
+        "correct": true
+      },
+      {
+        "text": "5/4"
+      },
+      {
+        "text": "2/3"
+      }
+    ]
+  },
+  {
+    "question": "A skydiver jumps out of a plane and falls freely for 10 seconds. What is the velocity of the skydiver after 10 seconds?",
+    "choices": [
+      {
+        "text": "102 m/s"
+      },
+      {
+        "text": "98 m/s",
+        "correct": true
+      },
+      {
+        "text": "95 m/s"
+      },
+      {
+        "text": "201 m/s"
+      }
+    ]
+  },
+  {
+    "question": "Let’s say the time taken (t) for the object to fall is 2 seconds. What is the acceleration?",
+    "choices": [
+      {
+        "text": "12.67 m/s"
+      },
+      {
+        "text": "15 m/s"
+      },
+      {
+        "text": "17.80 m/s"
+      },
+      {
+        "text": "19.6 m/s",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which object has more inertia?",
+    "choices": [
+      {
+        "text": "A tractor tailor rig moving at 2 m/s",
+        "correct": true
+      },
+      {
+        "text": "A bowling ball rolling at 1 m/s"
+      },
+      {
+        "text": "A pingpong ball rolling at 2 m/s"
+      },
+      {
+        "text": "A car rolling at 5 m/s"
+      }
+    ]
+  },
+  {
+    "question": "A force is a _______",
+    "choices": [
+      {
+        "text": "measured in Newtons"
+      },
+      {
+        "text": "several can act together and be balanced or unbalanced"
+      },
+      {
+        "text": "push or pull"
+      },
+      {
+        "text": "all of the above",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Newton's first law of motion is sometime called the law of ______",
+    "choices": [
+      {
+        "text": "statics"
+      },
+      {
+        "text": "unbalanced forces"
+      },
+      {
+        "text": "balanced forces"
+      },
+      {
+        "text": "inertia",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "While floating in outer space you throw a ball. The ball then is _______",
+    "choices": [
+      {
+        "text": "slows down and stops after being thrown"
+      },
+      {
+        "text": "slows down at a constant acceleration"
+      },
+      {
+        "text": "goes nowhere, floats in space"
+      },
+      {
+        "text": "continues at a constant speed in a constant direction forever or until it meets a force",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Two books are laying on a table top. With out picking them up how could you determine which has the greatest inertia?",
+    "choices": [
+      {
+        "text": "neither one has inertia they are not moving"
+      },
+      {
+        "text": "it is impossible to tell"
+      },
+      {
+        "text": "give each one a push, the one that moves the easiest has less mass thus less inertia"
+      },
+      {
+        "text": "look at them the larger one will have more inertia",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Pidong rides his car at an average velocity of 25 m/s for a total of 15 seconds. What is his displacement during this time?",
+    "choices": [
+      {
+        "text": "62.6 m"
+      },
+      {
+        "text": "62.5 m",
+        "correct": true
+      },
+      {
+        "text": "62.4 m"
+      },
+      {
+        "text": "62.3 m"
+      }
+    ]
+  },
+  {
+    "question": "Clark accelerates his car from rest at a constant acceleration of 8 m/s². If the car travels a total distance of 200 meters. What is its final velocity?",
+    "choices": [
+      {
+        "text": "36.42 m/s"
+      },
+      {
+        "text": "56.57 m/s",
+        "correct": true
+      },
+      {
+        "text": "72.56 m/s"
+      },
+      {
+        "text": "20.51 m/s"
+      }
+    ]
+  },
+  {
+    "question": "A dog is chasing a squirrel around the yard. It begins by running 2.54 m west yard before abruptly turning to east for 5.67 m. upon reaching the end of their yard, the dog makes one final run east yard for 1.33 m before the squirrel runs up a tree. What is the total displacement for the dog?",
+    "choices": [
+      {
+        "text": "4.46 m",
+        "correct": true
+      },
+      {
+        "text": "5.32 m"
+      },
+      {
+        "text": "7.2 m"
+      },
+      {
+        "text": "9.7 m"
+      }
+    ]
+  },
+  {
+    "question": "A student is driving their school car to school. They start by driving 8.33 km north, then east yard to travel the final 3.67 km to the school. What is the displacement for the car?",
+    "choices": [
+      {
+        "text": "6.10 km"
+      },
+      {
+        "text": "7.10 km"
+      },
+      {
+        "text": "8.10 km"
+      },
+      {
+        "text": "9.10 km",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A boat sails 800 km north then 50 km south. What is the sailboat's final position?",
+    "choices": [
+      {
+        "text": "750 km South",
+        "correct": true
+      },
+      {
+        "text": "850 km South"
+      },
+      {
+        "text": "650 km North"
+      },
+      {
+        "text": "450 km North"
+      }
+    ]
+  },
+  {
+    "question": "A car starts its motion from rest and uniformly accelerates at a rate of 4 m/s² for 2 seconds in a straight line. What is the velocity at the end of that time interval?",
+    "choices": [
+      {
+        "text": "4 m/s"
+      },
+      {
+        "text": "2 m/s"
+      },
+      {
+        "text": "8 m/s",
+        "correct": true
+      },
+      {
+        "text": "10 m/s"
+      }
+    ]
+  },
+  {
+    "question": "A moving object slows down from 20 m/s in 5 seconds. Find the average acceleration of the object during this time.",
+    "choices": [
+      {
+        "text": "2 m/s²"
+      },
+      {
+        "text": "3 m/s²"
+      },
+      {
+        "text": "4 m/s²",
+        "correct": true
+      },
+      {
+        "text": "5 m/s²"
+      }
+    ]
+  },
+  {
+    "question": "A plane travels 300 kilometers north and then turns another 400 kilometers. What is the displacement of the plane?",
+    "choices": [
+      {
+        "text": "200 m"
+      },
+      {
+        "text": "250 m"
+      },
+      {
+        "text": "100 m"
+      },
+      {
+        "text": "500 m",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Jerry is walking to a seashore. He starts by walking 15 m south then turns and walks 20 m east. What is his displacement?",
+    "choices": [
+      {
+        "text": "25 m",
+        "correct": true
+      },
+      {
+        "text": "30 m"
+      },
+      {
+        "text": "40 m"
+      },
+      {
+        "text": "50 m"
+      }
+    ]
+  },
+  {
+    "question": "What is the total distance of a student who walks 250 meters to the school building and then walks another 50 meters in the same direction down to the hall to their classroom?",
+    "choices": [
+      {
+        "text": "300 m",
+        "correct": true
+      },
+      {
+        "text": "400 m"
+      },
+      {
+        "text": "150 m"
+      },
+      {
+        "text": "200 m"
+      }
+    ]
+  },
+  {
+    "question": "A car starts its motion from 6 m/s to 10 m/s in 2 seconds under constant acceleration. What is the acceleration?",
+    "choices": [
+      {
+        "text": "3 m/s²"
+      },
+      {
+        "text": "2 m/s²",
+        "correct": true
+      },
+      {
+        "text": "4 m/s²"
+      },
+      {
+        "text": "1 m/s²"
+      }
+    ]
+  },
+  {
+    "question": "A truck starts its motion from rest and uniformly accelerates at a rate of 3 m/s² for 2 seconds in a straight line. How far did the car travel during those 2 seconds?",
+    "choices": [
+      {
+        "text": "6 m",
+        "correct": true
+      },
+      {
+        "text": "7 m"
+      },
+      {
+        "text": "8 m"
+      },
+      {
+        "text": "9 m"
+      }
+    ]
+  },
+  {
+    "question": "We have a rectangle with a base of 3 units and a height of 40 units. What is the area?",
+    "choices": [
+      {
+        "text": "120 m²",
+        "correct": true
+      },
+      {
+        "text": "130 m²"
+      },
+      {
+        "text": "140 m²"
+      },
+      {
+        "text": "150 m²"
+      }
+    ]
+  },
+  {
+    "question": "A van speeds up from a standing position to 90 m/s in 10 seconds. What is the average acceleration of the van during this time?",
+    "choices": [
+      {
+        "text": "6.4 m/s²"
+      },
+      {
+        "text": "9 m/s²",
+        "correct": true
+      },
+      {
+        "text": "10 m/s²"
+      },
+      {
+        "text": "11.6 m/s²"
+      }
+    ]
+  },
+  {
+    "question": "We have a triangle with a base of 16 units and a height of 10 units. What is the area?",
+    "choices": [
+      {
+        "text": "60 m²"
+      },
+      {
+        "text": "70 m²"
+      },
+      {
+        "text": "80 m²",
+        "correct": true
+      },
+      {
+        "text": "90 m²"
+      }
+    ]
+  },
+  {
+    "question": "Determine the slope: (6 s, 5 m/s) & (3 s, 10 m/s) ",
+    "choices": [
+      {
+        "text": "6/5"
+      },
+      {
+        "text": "8/9"
+      },
+      {
+        "text": "5/3",
+        "correct": true
+      },
+      {
+        "text": "1/2"
+      }
+    ]
+  },
+  {
+    "question": "Determine the slope: (7 s, 13 m/s) & (9 s, 15 m/s) ",
+    "choices": [
+      {
+        "text": "3/2",
+        "correct": true
+      },
+      {
+        "text": "1/3"
+      },
+      {
+        "text": "6/7"
+      },
+      {
+        "text": "2/3"
+      }
+    ]
+  },
+  {
+    "question": "Determine the slope: (4 s, 6 m/s) & (11 s, 18 m/s) ",
+    "choices": [
+      {
+        "text": "8/3"
+      },
+      {
+        "text": "12/7",
+        "correct": true
+      },
+      {
+        "text": "9/10"
+      },
+      {
+        "text": "5/2"
+      }
+    ]
+  },
+  {
+    "question": "Determine the slope: (12 s, 19 m/s) & (15 s, 20 m/s) ",
+    "choices": [
+      {
+        "text": "10/3",
+        "correct": true
+      },
+      {
+        "text": "6/7"
+      },
+      {
+        "text": "9/4"
+      },
+      {
+        "text": "12/9"
+      }
+    ]
+  },
+  {
+    "question": "Determine the slope: (2 s, 3 m/s) & (18 s, 25 m/s) ",
+    "choices": [
+      {
+        "text": "11/8",
+        "correct": true
+      },
+      {
+        "text": "15/7"
+      },
+      {
+        "text": "19/23"
+      },
+      {
+        "text": "6/5"
+      }
+    ]
+  },
+  {
+    "question": "A 20-kg bowling ball would require what force to accelerate down an alleyway at a rate of 4 m/s²?",
+    "choices": [
+      {
+        "text": "70 N"
+      },
+      {
+        "text": "80 N",
+        "correct": true
+      },
+      {
+        "text": "100 N"
+      },
+      {
+        "text": "75 N"
+      }
+    ]
+  },
+  {
+    "question": "What is the mass of a falling object if it produces a force of 147 N?",
+    "choices": [
+      {
+        "text": "50 kg"
+      },
+      {
+        "text": "30 kg"
+      },
+      {
+        "text": "15 kg",
+        "correct": true
+      },
+      {
+        "text": "40 kg"
+      }
+    ]
+  },
+  {
+    "question": "What is the acceleration of a softball that has a mass of 0.5 kg and hits the catcher's glove with a force of 25 N?",
+    "choices": [
+      {
+        "text": "25 m/s²"
+      },
+      {
+        "text": "50 m/s²"
+      },
+      {
+        "text": "25 m/s²",
+        "correct": true
+      },
+      {
+        "text": "50 m/s²"
+      }
+    ]
+  },
+  {
+    "question": "What is the net force on a dragster with a mass of 900 kg if its acceleration is +32.0 m/s²?",
+    "choices": [
+      {
+        "text": "28,800 N",
+        "correct": true
+      },
+      {
+        "text": "27,500 N"
+      },
+      {
+        "text": "28,500 N"
+      },
+      {
+        "text": "29,000 N"
+      }
+    ]
+  },
+  {
+    "question": "A car pulled by a truck has an acceleration of +2.0 m/s². What is the mass of the car if the net force on the car is 3,000 N?",
+    "choices": [
+      {
+        "text": "1,000 kg"
+      },
+      {
+        "text": "1,250 kg"
+      },
+      {
+        "text": "1,500 kg",
+        "correct": true
+      },
+      {
+        "text": "1,600 kg"
+      }
+    ]
+  },
+  {
+    "question": "If a skater pushes by a friend with a force of 200 N and accelerates 5 m, what is the mass of the skater?",
+    "choices": [
+      {
+        "text": "60 N"
+      },
+      {
+        "text": "40 N",
+        "correct": true
+      },
+      {
+        "text": "80 N"
+      },
+      {
+        "text": "30 N"
+      }
+    ]
+  },
+  {
+    "question": "A person is attracted to the center of the earth by a 500 N gravitational force. The force with which earth is attracted toward the person is?",
+    "choices": [
+      {
+        "text": "450 N"
+      },
+      {
+        "text": "600 N"
+      },
+      {
+        "text": "800 N"
+      },
+      {
+        "text": "500 N",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "A 3 kg toy car goes from 0 m/s to 10 m/s in 5 seconds. What is the net force acting on the car?",
+    "choices": [
+      {
+        "text": "6 N",
+        "correct": true
+      },
+      {
+        "text": "12 N"
+      },
+      {
+        "text": "10 N"
+      },
+      {
+        "text": "30 N"
+      }
+    ]
+  },
+  {
+    "question": "A 50 kg runner exerts a force of 60 N. What is the acceleration of the runner?",
+    "choices": [
+      {
+        "text": "0.70 m/s²"
+      },
+      {
+        "text": "0.83 m/s²",
+        "correct": true
+      },
+      {
+        "text": "0.70 m/s²"
+      },
+      {
+        "text": "0.83 m/s"
+      }
+    ]
+  },
+  {
+    "question": "The angle is 60 degrees, and the mass m is 10 kg. Calculate the normal force acting on the block.",
+    "choices": [
+      {
+        "text": "50"
+      },
+      {
+        "text": "49",
+        "correct": true
+      },
+      {
+        "text": "48"
+      },
+      {
+        "text": "47"
+      }
+    ]
+  },
+  {
+    "question": "An object of mass 10 kg is pulled by a rope over a pulley. It is accelerating upward with an acceleration of 6 m/s². Calculate the force of tension on the rope.",
+    "choices": [
+      {
+        "text": "134"
+      },
+      {
+        "text": "132"
+      },
+      {
+        "text": "133",
+        "correct": true
+      },
+      {
+        "text": "131"
+      }
+    ]
+  },
+  {
+    "question": "A spring with a force constant 1500 N/m is loaded vertically with a mass that extends the spring to 8 cm. Find the magnitude of the spring force.",
+    "choices": [
+      {
+        "text": "130"
+      },
+      {
+        "text": "125"
+      },
+      {
+        "text": "150"
+      },
+      {
+        "text": "120",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Let us consider the block of wood that weighs 3-kg resting on a table to be pushed from rest. In this case, we consider the static friction coefficient. 0.5 is the static coefficient of wood.",
+    "choices": [
+      {
+        "text": "23.50 m/s²"
+      },
+      {
+        "text": "24 m/s²"
+      },
+      {
+        "text": "23.52 m/s²",
+        "correct": true
+      },
+      {
+        "text": "25 m/s²"
+      }
+    ]
+  },
+  {
+    "question": "Suppose a truck with a mass of 1500 kg accelerates at a rate of 8 m/s². What is the applied force acting on the car?",
+    "choices": [
+      {
+        "text": "12,500"
+      },
+      {
+        "text": "12,000",
+        "correct": true
+      },
+      {
+        "text": "12,250"
+      },
+      {
+        "text": "12,300"
+      }
+    ]
+  },
+  {
+    "question": "A person's body is forced back into their seat when an airplane suddenly accelerates during takeoff. Which law of motion does this demonstrate?",
+    "choices": [
+      {
+        "text": "Newton's 1st Law",
+        "correct": true
+      },
+      {
+        "text": "Newton's 2nd Law"
+      },
+      {
+        "text": "Newton's 3rd Law"
+      },
+      {
+        "text": "Newton did not have cars in his time so he was not able to observe this kind of motion."
+      }
+    ]
+  },
+  {
+    "question": "When rockets launch using thrusters that apply a force against the ground, which law of motion does this demonstrate?",
+    "choices": [
+      {
+        "text": "Newton's 1st Law"
+      },
+      {
+        "text": "Newton's 2nd Law"
+      },
+      {
+        "text": "Newton's 3rd Law",
+        "correct": true
+      },
+      {
+        "text": "All of the above"
+      }
+    ]
+  },
+  {
+    "question": "Which formula best represents Newton's 2nd Law of Motion?",
+    "choices": [
+      {
+        "text": "F = M/A"
+      },
+      {
+        "text": "F = Mxd"
+      },
+      {
+        "text": "F = M/d"
+      },
+      {
+        "text": "F = MxA",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following best represents Inertia?",
+    "choices": [
+      {
+        "text": "When paddling a canoe, you push the oar backward and the canoe moves forward."
+      },
+      {
+        "text": "A balloon playing around the room when the air is let out of it."
+      },
+      {
+        "text": "A motorcycle requires less force to accelerate than a truck."
+      },
+      {
+        "text": "Moving forward when your bicycle suddenly stops moving due to hitting a curb.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of Newton's 1st Law?",
+    "choices": [
+      {
+        "text": "Using a force to push a grocery cart"
+      },
+      {
+        "text": "Pulling back a rubber band to shoot it forward"
+      },
+      {
+        "text": "A chair remains motionless in a room",
+        "correct": true
+      },
+      {
+        "text": "None of the above"
+      }
+    ]
+  }
+]

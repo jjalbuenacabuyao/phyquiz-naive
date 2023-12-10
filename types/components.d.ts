@@ -13,6 +13,8 @@ declare module 'vue' {
     IAngle: typeof import('~icons/tabler/angle')['default']
     IArrowNarrowLeft: typeof import('~icons/tabler/arrow-narrow-left')['default']
     IArrowNarrowRight: typeof import('~icons/tabler/arrow-narrow-right')['default']
+    IArrowsExchange2: typeof import('~icons/tabler/arrows-exchange2')['default']
+    IAward: typeof import('~icons/tabler/award')['default']
     IBook: typeof import('~icons/tabler/book')['default']
     IBulb: typeof import('~icons/tabler/bulb')['default']
     IClock: typeof import('~icons/tabler/clock')['default']

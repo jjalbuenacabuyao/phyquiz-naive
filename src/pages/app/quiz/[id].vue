@@ -1,9 +1,10 @@
 <script setup lang="tsx">
-import questions from '@/content/quiz/kinematics.json'
+import quizzes from '@/content/quizzes'
 
 const route = useRoute()
 const router = useRouter()
 const quizId = route.params.id
+const questions = quizzes[quizId].questions
 
 const randomizedQuestions = questions.map((q, i) => ({ ...q, id: i })).sort(() => Math.random() - 0.5)
 const quizState = ref<Array<{

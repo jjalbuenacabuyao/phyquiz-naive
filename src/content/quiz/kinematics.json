@@ -1,407 +1,398 @@
 [
   {
-    "question": "According to Newton's first law of motion, an object at rest will remain at rest unless ____",
+    "question": "What is the correct arrangement of using the slope in an equation?\n\nI. Pick two points on the line and determine their coordinates.\n\nII. Determine the difference in y-coordinates of these two points (rise).\n\nIII. Determine the difference in x-coordinates for these two points (run).\n\nIV. Divide the difference in y-coordinates by the difference in x-coordinates (rise/run or slope).",
     "choices": [
       {
-        "text": "a force is applied to it",
+        "text": "I, III, II, IV"
+      },
+      {
+        "text": "III, I, II, IV"
+      },
+      {
+        "text": "I, II, III, IV",
         "correct": true
       },
       {
-        "text": "it has mass"
-      },
-      {
-        "text": "it is in motion"
-      },
-      {
-        "text": "it is in space."
+        "text": "IV, III, II, I"
       }
     ]
   },
   {
-    "question": "Newton's second law of motion states that the acceleration of an object is directly proportional to ____",
+    "question": "What is the formula of Slope?",
     "choices": [
       {
-        "text": "its velocity."
+        "text": "Run/Rise"
       },
       {
-        "text": "the net force acting on it."
-      },
-      {
-        "text": "its mass.",
+        "text": "Rise/Run",
         "correct": true
       },
       {
-        "text": "the displacement it covers."
+        "text": "(Rise)(Rise) / Run"
+      },
+      {
+        "text": "(Run) (Run) / Rise"
       }
     ]
   },
   {
-    "question": "If an object experiences no net force, according to Newton's second law, its acceleration is ____",
+    "question": "It is the object that is falling under the sole influence of gravity?",
     "choices": [
       {
-        "text": "zero.",
-        "correct": true
+        "text": "Astronaut"
       },
       {
-        "text": "infinite."
+        "text": "Airplane"
       },
       {
-        "text": "constant."
+        "text": "Gravity"
       },
       {
-        "text": "negative."
-      }
-    ]
-  },
-  {
-    "question": "Newton's third law of motion states that for every action, there is an equal and opposite ____",
-    "choices": [
-      {
-        "text": "acceleration."
-      },
-      {
-        "text": "reaction.",
-        "correct": true
-      },
-      {
-        "text": "force."
-      },
-      {
-        "text": "displacement."
-      }
-    ]
-  },
-  {
-    "question": "If you push against a wall with a force of 50 N, the wall pushes back on you with a force:",
-    "choices": [
-      {
-        "text": "greater than 50 N."
-      },
-      {
-        "text": "less than 50 N."
-      },
-      {
-        "text": "equal to 50 N.",
-        "correct": true
-      },
-      {
-        "text": "zero."
-      }
-    ]
-  },
-  {
-    "question": "In which of Newton's laws is the concept of inertia most directly addressed?",
-    "choices": [
-      {
-        "text": "First law.",
-        "correct": true
-      },
-      {
-        "text": "Second law."
-      },
-      {
-        "text": "Third law."
-      },
-      {
-        "text": "All laws."
-      }
-    ]
-  },
-  {
-    "question": "A car traveling at a constant velocity on a straight road experiences:",
-    "choices": [
-      {
-        "text": "zero net force.",
-        "correct": true
-      },
-      {
-        "text": "a balanced force."
-      },
-      {
-        "text": "an unbalanced force."
-      },
-      {
-        "text": "decreasing acceleration."
-      }
-    ]
-  },
-  {
-    "question": "If an object is in free fall near the surface of the Earth, neglecting air resistance, its acceleration is:",
-    "choices": [
-      {
-        "text": "zero."
-      },
-      {
-        "text": "9.8 m/s² downward.",
-        "correct": true
-      },
-      {
-        "text": "9.8 m/s² upward."
-      },
-      {
-        "text": "5 m/s² downward."
-      }
-    ]
-  },
-  {
-    "question": "A force of 20 N is applied to a 5 kg object. According to Newton's second law, what is the acceleration of the object?",
-    "choices": [
-      {
-        "text": "4 m/s²",
-        "correct": true
-      },
-      {
-        "text": "10 m/s²"
-      },
-      {
-        "text": "25 m/s²"
-      },
-      {
-        "text": "100 m/s²"
-      }
-    ]
-  },
-  {
-    "question": "If the mass of an object doubles while the force acting on it remains constant, its acceleration will:",
-    "choices": [
-      {
-        "text": "double."
-      },
-      {
-        "text": "halve."
-      },
-      {
-        "text": "remain the same.",
-        "correct": true
-      },
-      {
-        "text": "quadruple."
-      }
-    ]
-  },
-  {
-    "question": "According to Newton's third law, when you walk on the ground, your foot exerts a force on the ground, and the ground exerts:",
-    "choices": [
-      {
-        "text": "a greater force on your foot."
-      },
-      {
-        "text": "a weaker force on your foot."
-      },
-      {
-        "text": "an equal force on your foot.",
-        "correct": true
-      },
-      {
-        "text": "no force on your foot."
-      }
-    ]
-  },
-  {
-    "question": "If an object has a net force acting on it and is moving in the positive direction, the object:",
-    "choices": [
-      {
-        "text": "must be accelerating."
-      },
-      {
-        "text": "is at rest."
-      },
-      {
-        "text": "is moving with constant velocity.",
-        "correct": true
-      },
-      {
-        "text": "has no mass."
-      }
-    ]
-  },
-  {
-    "question": "The weight of an object is:",
-    "choices": [
-      {
-        "text": "the same everywhere."
-      },
-      {
-        "text": "greater on the Moon than on Earth."
-      },
-      {
-        "text": "the force with which it is attracted to the Earth.",
-        "correct": true
-      },
-      {
-        "text": "not related to mass."
-      }
-    ]
-  },
-  {
-    "question": "Which of the following is an example of static friction?",
-    "choices": [
-      {
-        "text": "Sliding a book across a table."
-      },
-      {
-        "text": "Rolling a ball on the ground."
-      },
-      {
-        "text": "Pushing a heavy box and keeping it at rest.",
-        "correct": true
-      },
-      {
-        "text": "Air resistance on a falling object."
-      }
-    ]
-  },
-  {
-    "question": "When a parachutist falls through the air at constant velocity, the air resistance is:",
-    "choices": [
-      {
-        "text": "greater than the weight."
-      },
-      {
-        "text": "equal to the weight.",
-        "correct": true
-      },
-      {
-        "text": "less than the weight."
-      },
-      {
-        "text": "zero."
-      }
-    ]
-  },
-  {
-    "question": "If an object is experiencing a net force and is moving at a constant velocity, the frictional force acting on it must be:",
-    "choices": [
-      {
-        "text": "zero",
-        "correct": true
-      },
-      {
-        "text": "equal to the net force"
-      },
-      {
-        "text": "greater than the net force"
-      },
-      {
-        "text": "in the direction of motion"
-      }
-    ]
-  },
-  {
-    "question": "Which of the following statements is true regarding tension in a rope or cable?",
-    "choices": [
-      {
-        "text": "It is always equal to the weight of an object"
-      },
-      {
-        "text": "It is a force that acts perpendicular to the rope"
-      },
-      {
-        "text": "It is always directed upward"
-      },
-      {
-        "text": "It is equal throughout the entire rope",
+        "text": "Free Fall Object",
         "correct": true
       }
     ]
   },
   {
-    "question": "When a spring is compressed or stretched, the force it exerts is:",
+    "question": "What is the acceleration of gravity on Earth?",
     "choices": [
       {
-        "text": "directly proportional to the displacement",
+        "text": "2 m/s²"
+      },
+      {
+        "text": "6 m/s²"
+      },
+      {
+        "text": "8 m/s³"
+      },
+      {
+        "text": "9.8 m/s²",
         "correct": true
-      },
-      {
-        "text": "inversely proportional to the displacement"
-      },
-      {
-        "text": "unrelated to the displacement"
-      },
-      {
-        "text": "always zero"
       }
     ]
   },
   {
-    "question": "In the absence of air resistance, the acceleration of an object in free fall near the surface of the Earth is:",
+    "question": "What is the formula in getting the area of a rectangle?",
     "choices": [
       {
-        "text": "zero"
-      },
-      {
-        "text": "9.8 m/s² upward"
-      },
-      {
-        "text": "9.8 m/s² downward",
+        "text": "b × h",
         "correct": true
       },
       {
-        "text": "5 m/s² downward"
+        "text": "½ × b × h"
+      },
+      {
+        "text": "C² = a² + b²"
+      },
+      {
+        "text": "d = d1 + d2 + d3"
       }
     ]
   },
   {
-    "question": "If an object is at rest on an inclined plane, the normal force exerted by the plane on the object is:",
+    "question": "Anna drove to the city to buy groceries. She went 380 km North in about 10.2 hours. What is her velocity?",
     "choices": [
       {
-        "text": "equal to the object's weight"
-      },
-      {
-        "text": "perpendicular to the plane",
+        "text": "37.25 km/h",
         "correct": true
       },
       {
-        "text": "greater than the object's weight"
+        "text": "67 km/h"
       },
       {
-        "text": "opposite in direction to the gravitational force"
+        "text": "70 km/h"
+      },
+      {
+        "text": "20.90 km/h"
       }
     ]
   },
   {
-    "question": "Who formulated the three laws of motion?",
+    "question": "Karylle starts her jogging from 70 km/h and achieves a speed of 60 km/h in 10 minutes. Find the acceleration.",
     "choices": [
-      {"text": "Albert Einstein"},
-      {"text": "Galileo Galilei"},
-      {"text": "Isaac Newton", "correct": true},
-      {"text": "Nikola Tesla"}
+      {
+        "text": "5 m/s²"
+      },
+      {
+        "text": "15 m/s²"
+      },
+      {
+        "text": "10 m/s²",
+        "correct": true
+      },
+      {
+        "text": "20 m/s²"
+      }
     ]
   },
   {
-    "question": "What is the first law of motion?",
+    "question": "What is the area of a rectangle with a base of 6 s and a height of 180 m?",
     "choices": [
-      {"text": "An object will accelerate when a force is applied."},
-      {"text": "An object in motion will come to rest without a force acting on it."},
-      {"text": "An object at rest will remain at rest unless acted upon by an external force", "correct": true},
-      {"text": "The velocity of an object is directly proportional to the force applied to it."}
+      {
+        "text": "120 m/s"
+      },
+      {
+        "text": "180 m/s",
+        "correct": true
+      },
+      {
+        "text": "150 m/s"
+      },
+      {
+        "text": "200 m/s"
+      }
     ]
   },
   {
-    "question": "What is the law of conservation of momentum?",
+    "question": "The shaded triangle on the velocity-time graph has a base of 5 seconds and a height of 50 m/s. What is the area?",
     "choices": [
-      {"text": "The total momentum of an isolated system decreases over time."},
-      {"text": "The total momentum of an isolated system remains constant", "correct": true},
-      {"text": "Momentum is only conserved in elastic collisions."},
-      {"text": "Momentum is conserved only for objects at rest."}
+      {
+        "text": "50 m/s"
+      },
+      {
+        "text": "125 m/s",
+        "correct": true
+      },
+      {
+        "text": "100 m/s"
+      },
+      {
+        "text": "75 m/s"
+      }
     ]
   },
   {
-    "question": "What is the formula for Normal Force?",
+    "question": "Its goal is to develop sophisticated mental models that serve to describe and explain the motion of real objects.",
     "choices": [
-      {"text": "Fn = 1/m"},
-      {"text": "Fn = mg/μk"},
-      {"text": "Fn = m*g", "correct": true},
-      {"text": "Fn = m*a"}
+      {
+        "text": "Kinematics",
+        "correct": true
+      },
+      {
+        "text": "Newton's Law of Motion"
+      },
+      {
+        "text": "Kinetics"
+      },
+      {
+        "text": "Law of Acceleration"
+      }
     ]
   },
   {
-    "question": "What is the formula for Applied force?",
+    "question": "Quantities that are fully described by magnitude.",
     "choices": [
-      {"text": "Fa = ma/μk"},
-      {"text": "Fa = mg/μk"},
-      {"text": "Fa = m*g"},
-      {"text": "Fa = m*a", "correct": true}
+      {
+        "text": "Displacement"
+      },
+      {
+        "text": "Scalar",
+        "correct": true
+      },
+      {
+        "text": "Velocity"
+      },
+      {
+        "text": "Vector"
+      }
+    ]
+  },
+  {
+    "question": "Quantities that are fully described by magnitude and direction.",
+    "choices": [
+      {
+        "text": "Acceleration"
+      },
+      {
+        "text": "Distance"
+      },
+      {
+        "text": "Vector",
+        "correct": true
+      },
+      {
+        "text": "Scalar"
+      }
+    ]
+  },
+  {
+    "question": "It shows how far out of place an object is.",
+    "choices": [
+      {
+        "text": "Displacement",
+        "correct": true
+      },
+      {
+        "text": "Speed"
+      },
+      {
+        "text": "Distance"
+      },
+      {
+        "text": "Vectors"
+      }
+    ]
+  },
+  {
+    "question": "It is direction aware.",
+    "choices": [
+      {
+        "text": "Vector"
+      },
+      {
+        "text": "Scalar"
+      },
+      {
+        "text": "Vector Quantity",
+        "correct": true
+      },
+      {
+        "text": "Scalar Quantity"
+      }
+    ]
+  },
+  {
+    "question": "It is ignorant of direction.",
+    "choices": [
+      {
+        "text": "Vector"
+      },
+      {
+        "text": "Scalar"
+      },
+      {
+        "text": "Vector Quantity"
+      },
+      {
+        "text": "Scalar Quantity",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "It can be thought of as the rate at which an object covers distance.",
+    "choices": [
+      {
+        "text": "Total Distance"
+      },
+      {
+        "text": "Speed",
+        "correct": true
+      },
+      {
+        "text": "Velocity"
+      },
+      {
+        "text": "Acceleration"
+      }
+    ]
+  },
+  {
+    "question": "The rate at which an object changes its position.",
+    "choices": [
+      {
+        "text": "Acceleration"
+      },
+      {
+        "text": "Distance"
+      },
+      {
+        "text": "Velocity",
+        "correct": true
+      },
+      {
+        "text": "Vector"
+      }
+    ]
+  },
+  {
+    "question": "The speed at any given instant in time.",
+    "choices": [
+      {
+        "text": "Average Speed"
+      },
+      {
+        "text": "Total Distance"
+      },
+      {
+        "text": "Average Velocity"
+      },
+      {
+        "text": "Instantaneous Speed",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Rate at which an object changes its velocity.",
+    "choices": [
+      {
+        "text": "Speed"
+      },
+      {
+        "text": "Distance"
+      },
+      {
+        "text": "Acceleration",
+        "correct": true
+      },
+      {
+        "text": "Velocity"
+      }
+    ]
+  },
+  {
+    "question": "It is a device that could track the location of an object moving in 1-Dimension by placing a dot on a strip of paper.",
+    "choices": [
+      {
+        "text": "Vector Diagram"
+      },
+      {
+        "text": "Analytical Method"
+      },
+      {
+        "text": "Graphical Method"
+      },
+      {
+        "text": "Ticker Tape Diagram",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "These diagrams can be used to describe the velocity of a moving object during its motion.",
+    "choices": [
+      {
+        "text": "Dot Diagram"
+      },
+      {
+        "text": "Vector Diagram",
+        "correct": true
+      },
+      {
+        "text": "Ticker Tape Diagram"
+      },
+      {
+        "text": "Analytical Method"
+      }
+    ]
+  },
+  {
+    "question": "What is the principle of slope of the line on a position-time graph?",
+    "choices": [
+      {
+        "text": "As the slope goes, so goes the velocity",
+        "correct": true
+      },
+      {
+        "text": "As the slope increases, the velocity also increases"
+      },
+      {
+        "text": "As the slope decreases, the velocity also decreases"
+      },
+      {
+        "text": "As the slope decreases, the velocity increases"
+      }
     ]
   }
 ]

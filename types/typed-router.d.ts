@@ -41,7 +41,7 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/app': RouteRecordInfo<'/app', '/', Record<never, never>, Record<never, never>>,
     'PhyQuiz': RouteRecordInfo<'PhyQuiz', '/app', Record<never, never>, Record<never, never>>,
-    'Quiz History': RouteRecordInfo<'Quiz History', '/app/history', Record<never, never>, Record<never, never>>,
+    'Quiz hstory': RouteRecordInfo<'Quiz hstory', '/app/history', Record<never, never>, Record<never, never>>,
     'Quiz results': RouteRecordInfo<'Quiz results', '/app/history/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'People': RouteRecordInfo<'People', '/app/people', Record<never, never>, Record<never, never>>,
     '/app/people/[id]': RouteRecordInfo<'/app/people/[id]', '/app/people/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
@@ -51,6 +51,8 @@ declare module 'vue-router/auto/routes' {
     'Topics': RouteRecordInfo<'Topics', '/app/topic', Record<never, never>, Record<never, never>>,
     '/app/topic/kinematics/': RouteRecordInfo<'/app/topic/kinematics/', '/app/topic/kinematics', Record<never, never>, Record<never, never>>,
     '/app/topic/kinematics/[page]': RouteRecordInfo<'/app/topic/kinematics/[page]', '/app/topic/kinematics/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
+    '/app/topic/newtons-law/': RouteRecordInfo<'/app/topic/newtons-law/', '/app/topic/newtons-law', Record<never, never>, Record<never, never>>,
+    '/app/topic/newtons-law/[page]': RouteRecordInfo<'/app/topic/newtons-law/[page]', '/app/topic/newtons-law/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
   }
 }
 
