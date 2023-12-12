@@ -54,7 +54,7 @@ async function next() {
 
 <template>
   <div class="p-4">
-    <div class="text-gray-400">
+    <div class="text-gray-500 dark:text-gray-400">
       Question {{ quizState.length + 1 }}/{{ randomizedQuestions.length }}
     </div>
     <p class="mt-2 text-xl">

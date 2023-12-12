@@ -11,7 +11,7 @@ definePage({
 <template>
   <div class="p-4">
     <template v-if="history.length">
-      <router-link v-for="item in history" class="mb-4 block bg-gray-700" :to="`/history/${item.id}`">
+      <router-link v-for="item in history" class="mb-4 block bg-gray-200 dark:bg-gray-700" :to="`/history/${item.id}`">
         <div class="p-4">
           <h1 class="mt-2 text-2xl font-medium">
             {{ quizzes[item.quizId].name }}

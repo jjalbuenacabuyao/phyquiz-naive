@@ -16,7 +16,7 @@ function select(id: string) {
 
 <template>
   <div class="flex flex-col gap-3 p-4">
-    <button v-for="item in simulations" :key="item.id" class="flex flex-col items-center rounded-xl bg-gray-600" @click="select(item.id)">
+    <button v-for="item in simulations" :key="item.id" class="flex flex-col items-center rounded-xl bg-gray-300 dark:bg-gray-600" @click="select(item.id)">
       <img class="rounded-t-xl" :src="item.image">
       <div class="flex flex-col justify-center">
         <h2 class="py-4 text-center text-xl font-semibold">

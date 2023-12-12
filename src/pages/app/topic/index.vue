@@ -8,7 +8,7 @@ definePage({
 
 <template>
   <div class="p-4">
-    <router-link v-for="item in topics" class="mb-3 flex flex-col items-center gap-6 rounded-xl bg-gray-600 p-6" :to="`/topic/${item.id}`">
+    <router-link v-for="item in topics" class="mb-3 flex flex-col items-center gap-6 rounded-xl bg-gray-300 p-6 dark:bg-gray-600" :to="`/topic/${item.id}`">
       <i-angle v-if="item.id === 'kinematics'" class="h-24 w-24 shrink-0 rounded-full bg-red-500 p-4" />
       <i-arrows-exchange-2 v-else class="h-24 w-24 shrink-0 rounded-full bg-blue-500 p-4" />
 

@@ -1,5 +1,6 @@
 <script setup lang="tsx">
 import type { MenuOption } from 'naive-ui'
+import { useThemeStore } from '@/stores/theme'
 
 definePage({
   path: '/',
@@ -52,11 +53,23 @@ const options: MenuOption[] = [
     icon: () => <i-info-circle />,
   },
 ]
+
+const top = ref()
+const router = useRouter()
+function handleScroll() {
+  top.value.scrollIntoView()
+}
+router.afterEach(() => {
+  handleScroll()
+})
+
+const theme = useThemeStore()
 </script>
 
 <template>
   <n-layout has-sider position="absolute">
     <n-layout-header bordered class="flex h-14 items-center">
+      <div ref="top" />
       <app-header-item v-if="isNamed" @click="isShowing = !isShowing">
         <i-menu-2 class="h-6 w-6" />
       </app-header-item>
@@ -73,8 +86,14 @@ const options: MenuOption[] = [
   </n-layout>
   <n-drawer v-model:show="isShowing" display-directive="show" placement="left" :width="300">
     <n-drawer-content body-content-style="padding: 0">
-      <div class="bg-sky-500 p-4">
-        <img class="w-40" src="/images/phyquiz.png">
+      <div class="p-4 pt-8">
+        <h1 class="text-2xl font-semibold">
+          PhyQuiz
+        </h1>
+        <div class="mt-4 flex justify-between">
+          Dark mode
+          <n-switch v-model:value="theme.darkMode" />
+        </div>
       </div>
       <n-menu
         class="mt-2"

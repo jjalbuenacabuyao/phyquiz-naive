@@ -7,7 +7,7 @@ definePage({
 </script>
 
 <template>
-  <div class="prose prose-sm prose-invert mx-auto p-4 text-center">
+  <div class="dark:prose-invertmx-auto prose prose-sm p-4 text-center">
     <nf />
   </div>
 </template>

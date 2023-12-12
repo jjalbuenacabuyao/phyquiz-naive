@@ -23,14 +23,14 @@ const pages = {
 
 <template>
   <div>
-    <div class="w-full bg-gray-700">
+    <div class="w-full bg-gray-200 dark:bg-gray-700">
       <div class="p-4">
         <h1 class="text-2xl font-medium">
           {{ topic.lessons[page - 1] }}
         </h1>
       </div>
     </div>
-    <div class="prose prose-sm prose-invert mx-auto p-4">
+    <div class="dark:prose-invertmx-auto prose prose-sm p-4">
       <component :is="pages[page]" />
     </div>
   </div>

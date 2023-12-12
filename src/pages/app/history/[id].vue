@@ -29,7 +29,7 @@ function exportPDF() {
 <template>
   <div class="bg-gray-900">
     <div id="pdf">
-      <div class="w-full bg-gray-700">
+      <div class="w-full bg-gray-200 dark:bg-gray-700">
         <div class="p-4">
           <h1 class="mt-2 text-2xl font-medium">
             {{ quiz.name }}
@@ -44,9 +44,9 @@ function exportPDF() {
       </div>
 
       <div class="p-4">
-        <div v-for="(item, i) in quiz.questions" class="mb-3 bg-gray-700 p-4">
+        <div v-for="(item, i) in quiz.questions" class="mb-3 bg-gray-200 p-4 dark:bg-gray-700">
           <div class="flex justify-between">
-            <div class="text-gray-400">
+            <div class="text-gray-500 dark:text-gray-400">
               Question {{ i + 1 }}
             </div>
             <div>

@@ -8,6 +8,7 @@
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "cap:sync": "cap sync",
     "cap:run android": "cap run android"
   },
   "dependencies": {
