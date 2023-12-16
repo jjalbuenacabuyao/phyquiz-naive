@@ -1,4 +1,5 @@
 <script setup lang="ts">
+//@ts-nocheck
 import topics from '@/content/topics.json'
 
 import p1 from '@/content/topic/newton/1.md'

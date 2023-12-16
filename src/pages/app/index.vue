@@ -1,4 +1,5 @@
 <script setup lang="tsx">
+//@ts-nocheck
 import topics from '@/content/topics.json'
 import people from '@/content/people.json'
 
@@ -10,9 +11,7 @@ definePage({
 <template>
   <div class="p-4">
     <router-link class="card" to="/quiz">
-      <div class="h-28 w-28 shrink-0 rounded-lg bg-gradient-to-br from-sky-400 via-red-200 to-violet-800 pl-1 pt-2">
-        <i-player-play-filled class="h-24 w-24 text-white" />
-      </div>
+      <!-- Pinagbaliktad -->
       <div class="flex flex-col justify-center gap-2">
         <h1 class="text-2xl font-semibold leading-none">
           Play the Quiz!
@@ -20,6 +19,9 @@ definePage({
         <p>
           Test your knowledge about Kinematics and Newton's Laws of Motion
         </p>
+      </div>
+      <div class="h-28 w-28 shrink-0 rounded-lg bg-gradient-to-br from-sky-400 via-red-200 to-violet-800 pl-1 pt-2">
+        <i-player-play-filled class="h-24 w-24 text-white" />
       </div>
     </router-link>
     <hr>

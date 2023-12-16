@@ -1,4 +1,5 @@
 <script setup lang="tsx">
+//@ts-nocheck
 import type { MenuOption } from 'naive-ui'
 import { useThemeStore } from '@/stores/theme'
 

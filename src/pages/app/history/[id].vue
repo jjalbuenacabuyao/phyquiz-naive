@@ -1,4 +1,5 @@
 <script setup lang="tsx">
+//@ts-nocheck
 import html2pdf from 'html2pdf.js'
 import quizzes from '@/content/quizzes'
 

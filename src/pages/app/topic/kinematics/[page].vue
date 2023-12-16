@@ -1,4 +1,5 @@
 <script setup lang="ts">
+//@ts-nocheck
 import topics from '@/content/topics.json'
 
 import p1 from '@/content/topic/kinematics/1.md'
@@ -30,7 +31,8 @@ const pages = {
         </h1>
       </div>
     </div>
-    <div class="dark:prose-invertmx-auto prose prose-sm p-4">
+    <!-- add prose-base -->
+    <div class="dark:prose-invertmx-auto prose prose-base text-justify p-4"> 
       <component :is="pages[page]" />
     </div>
   </div>

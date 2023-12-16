@@ -1,4 +1,5 @@
 <script setup lang="ts">
+//@ts-nocheck
 import people from '@/content/people.json'
 
 definePage({

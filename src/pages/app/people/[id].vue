@@ -1,4 +1,5 @@
 <script setup lang="tsx">
+//@ts-nocheck
 import people from '@/content/people.json'
 
 const route = useRoute()

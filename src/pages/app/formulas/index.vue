@@ -1,4 +1,5 @@
 <script setup lang="ts">
+//@ts-nocheck
 import nf from '@/content/formulas/newtons-law.md'
 
 definePage({

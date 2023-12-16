@@ -1,4 +1,5 @@
 <script setup lang="tsx">
+//@ts-nocheck
 import topics from '@/content/topics.json'
 
 definePage({

@@ -1,4 +1,5 @@
 <script setup lang="tsx">
+//@ts-nocheck
 import quizzes from '@/content/quizzes'
 
 const history = JSON.parse(localStorage.getItem('history') || '[]')

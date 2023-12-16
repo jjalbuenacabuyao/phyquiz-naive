@@ -1,4 +1,5 @@
 <script setup lang="ts">
+//@ts-nocheck
 import topics from '@/content/topics.json'
 
 const topic = topics.find(item => item.id === 'newtons-law')

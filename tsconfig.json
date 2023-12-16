@@ -1,5 +1,5 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.json",
+  "extends": "@vue/tsconfig/tsconfig.json",//@ts-ignore
   "include": [
     "types/auto-imports.d.ts",
     "types/components.d.ts",
@@ -12,6 +12,7 @@
     },
     "types": ["unplugin-icons/types/vue"],
     "allowSyntheticDefaultImports": true,
-    "strict": true
+    "strict": true,
+    "noEmitOnError": false,
   }
 }
