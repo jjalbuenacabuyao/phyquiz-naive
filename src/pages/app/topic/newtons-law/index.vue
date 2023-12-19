@@ -9,13 +9,13 @@ const topic = topics.find(item => item.id === 'newtons-law')
   <div>
     <div class="w-full bg-gray-200 dark:bg-gray-700">
       <div class="p-8">
-        <i-arrows-exchange-2 class="h-24 w-24 shrink-0 rounded-full bg-blue-500 p-4" />
+        <img :src="`/images/topics/newtons-law/newton-hero.jpg`" class="w-full" />
 
         <h1 class="mt-4 text-2xl font-medium">
           {{ topic.name }}
         </h1>
 
-        <p class="mt-2">
+        <p class="mt-2 text-justify">
           {{ topic.description }}
         </p>
       </div>
