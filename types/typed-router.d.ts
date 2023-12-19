@@ -43,7 +43,7 @@ declare module 'vue-router/auto/routes' {
     'PhyQuiz': RouteRecordInfo<'PhyQuiz', '/app', Record<never, never>, Record<never, never>>,
     'About': RouteRecordInfo<'About', '/app/about', Record<never, never>, Record<never, never>>,
     'Formulas': RouteRecordInfo<'Formulas', '/app/formulas', Record<never, never>, Record<never, never>>,
-    'Quiz hstory': RouteRecordInfo<'Quiz hstory', '/app/history', Record<never, never>, Record<never, never>>,
+    'Quiz history': RouteRecordInfo<'Quiz history', '/app/history', Record<never, never>, Record<never, never>>,
     'Quiz results': RouteRecordInfo<'Quiz results', '/app/history/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'People': RouteRecordInfo<'People', '/app/people', Record<never, never>, Record<never, never>>,
     '/app/people/[id]': RouteRecordInfo<'/app/people/[id]', '/app/people/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
