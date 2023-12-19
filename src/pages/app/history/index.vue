@@ -5,7 +5,7 @@ import quizzes from '@/content/quizzes'
 const history = JSON.parse(localStorage.getItem('history') || '[]')
 
 definePage({
-  name: 'Quiz hstory',
+  name: 'Quiz history',
 })
 </script>
 
