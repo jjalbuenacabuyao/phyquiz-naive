@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">PhyQuiz</string>
-    <string name="title_activity_main">PhyQuiz</string>
-    <string name="package_name">com.physics.phyquiz</string>
-    <string name="custom_url_scheme">com.physics.phyquiz</string>
-</resources>
