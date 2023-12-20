@@ -11,7 +11,6 @@ declare module 'vue' {
     AppModal: typeof import('./../src/components/app/modal.vue')['default']
     AppPage: typeof import('./../src/components/app/page.vue')['default']
     IArrowNarrowLeft: typeof import('~icons/tabler/arrow-narrow-left')['default']
-    IArrowNarrowRight: typeof import('~icons/tabler/arrow-narrow-right')['default']
     IAward: typeof import('~icons/tabler/award')['default']
     IBook: typeof import('~icons/tabler/book')['default']
     IBulb: typeof import('~icons/tabler/bulb')['default']
