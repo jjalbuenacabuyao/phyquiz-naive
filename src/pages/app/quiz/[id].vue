@@ -7,6 +7,8 @@ const router = useRouter();
 const quizId = route.params.id;
 const questions = quizzes[quizId].questions;
 
+const letters = ["A. ", "B. ", "C. ", "D. "];
+
 const randomizedQuestions = questions
   .map((q, i) => ({ ...q, id: i }))
   .sort(() => Math.random() - 0.5);
@@ -56,11 +58,15 @@ async function next() {
 </script>
 
 <template>
-  <div class="p-4 bg-slate-300 dark:bg-slate-700">
+  <div class="relative p-4 bg-slate-300 dark:bg-slate-700 min-h-screen">
+    <h1 class="relative z-10 capitalize text-center font-bold text-3xl mb-14 text-slate-900">{{ quizId }}</h1>
+    <div class="z-[1] absolute top-[-13%] left-0 right-0 h-44 bg-slate-200 rounded-[50%] dark:bg-slate-300"></div>
     <div class="text-gray-500 dark:text-gray-400">
-      Question {{ quizState.length + 1 }}/{{ randomizedQuestions.length }}
+      Quiz {{ quizState.length + 1 }}/{{ randomizedQuestions.length }}
     </div>
+    <hr />
     <p class="mt-2 text-xl">
+      {{ quizState.length + 1 }}.
       {{ currentQuestion?.question }}
     </p>
     <n-radio-group
@@ -73,9 +79,9 @@ async function next() {
     >
       <div class="flex flex-col gap-2">
         <n-radio
-          v-for="choice in currentQuestion.choices"
+          v-for="(choice, index) in currentQuestion.choices"
           :key="choice.text"
-          :label="choice.text"
+          :label="letters[index] + choice.text"
           :value="choice.text"
           class="p-3 rounded-full bg-white dark:bg-slate-800"
         />
@@ -86,12 +92,9 @@ async function next() {
         :disabled="!selectedAnswer"
         icon-placement="right"
         type="primary"
+        style="border-radius: 9999px;font-weight:bold;padding-inline:2rem;padding-block:1.3rem;"
         @click="next"
       >
-        <template #icon>
-          <i-arrow-narrow-right />
-        </template>
-
         {{
           quizState.length + 1 === randomizedQuestions.length
             ? "Finish"
