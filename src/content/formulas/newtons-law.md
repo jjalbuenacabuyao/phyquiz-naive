@@ -1,4 +1,4 @@
-p# Newton's Laws of Motion
+# Newton's Laws of Motion
 
 ## First Law (Law of Inertia)
 
