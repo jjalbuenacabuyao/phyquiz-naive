@@ -27,7 +27,7 @@ const pages = {
         </h1>
       </div>
     </div>
-    <div class="dark:prose-invertmx-auto prose prose-sm p-4">
+    <div class="dark:prose-invert mx-auto prose prose-sm p-4 dark:text-gray-200">
       <component :is="pages[page]" />
     </div>
   </div>

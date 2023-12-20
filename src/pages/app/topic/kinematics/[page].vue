@@ -32,7 +32,7 @@ const pages = {
       </div>
     </div>
     <!-- add prose-base -->
-    <div class="dark:prose-invertmx-auto prose prose-base text-justify p-4">
+    <div class="dark:prose-invert mx-auto prose prose-base text-justify p-4 dark:text-gray-200">
       <component :is="pages[page]" />
     </div>
   </div>
