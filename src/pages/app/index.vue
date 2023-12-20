@@ -85,9 +85,10 @@ definePage({
     </router-link>
 
     <router-link class="card mt-2" to="/quiz">
-      <div class="h-28 w-28 shrink-0 rounded-lg bg-gradient-to-br from-sky-400 via-red-200 to-violet-800 pl-1 pt-2">
-        <i-player-play-filled class="h-24 w-24 text-white" />
-      </div>
+      <!-- <div class="h-28 w-28 shrink-0 rounded-lg bg-gradient-to-br from-sky-400 via-red-200 to-violet-800 pl-1 pt-2">
+        <img :src="`/images/kinematics-icon.png`" class="h-20 w-20">
+      </div> -->
+      <img :src="`/images/PLAY.png`" class="h-28 w-28">
       <div class="flex flex-col justify-center gap-2">
         <h1 class="text-2xl font-semibold leading-none">
           Play the Quiz!
