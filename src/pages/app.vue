@@ -104,6 +104,7 @@ const theme = useThemeStore()
 
         :root-indent="20" :value="$route.name"
       />
+      <img src="/qr.png" class="p-4" />
     </n-drawer-content>
   </n-drawer>
 </template>
