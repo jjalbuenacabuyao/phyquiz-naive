@@ -108,42 +108,6 @@
     ]
   },
   {
-    "question": "A car traveling at a constant velocity on a straight road experiences:",
-    "choices": [
-      {
-        "text": "zero net force.",
-        "correct": true
-      },
-      {
-        "text": "a balanced force."
-      },
-      {
-        "text": "an unbalanced force."
-      },
-      {
-        "text": "decreasing acceleration."
-      }
-    ]
-  },
-  {
-    "question": "If an object is in free fall near the surface of the Earth, neglecting air resistance, its acceleration is:",
-    "choices": [
-      {
-        "text": "zero."
-      },
-      {
-        "text": "9.8 m/s² downward.",
-        "correct": true
-      },
-      {
-        "text": "9.8 m/s² upward."
-      },
-      {
-        "text": "5 m/s² downward."
-      }
-    ]
-  },
-  {
     "question": "A force of 20 N is applied to a 5 kg object. According to Newton's second law, what is the acceleration of the object?",
     "choices": [
       {
@@ -180,60 +144,6 @@
     ]
   },
   {
-    "question": "According to Newton's third law, when you walk on the ground, your foot exerts a force on the ground, and the ground exerts:",
-    "choices": [
-      {
-        "text": "a greater force on your foot."
-      },
-      {
-        "text": "a weaker force on your foot."
-      },
-      {
-        "text": "an equal force on your foot.",
-        "correct": true
-      },
-      {
-        "text": "no force on your foot."
-      }
-    ]
-  },
-  {
-    "question": "If an object has a net force acting on it and is moving in the positive direction, the object:",
-    "choices": [
-      {
-        "text": "must be accelerating."
-      },
-      {
-        "text": "is at rest."
-      },
-      {
-        "text": "is moving with constant velocity.",
-        "correct": true
-      },
-      {
-        "text": "has no mass."
-      }
-    ]
-  },
-  {
-    "question": "The weight of an object is:",
-    "choices": [
-      {
-        "text": "the same everywhere."
-      },
-      {
-        "text": "greater on the Moon than on Earth."
-      },
-      {
-        "text": "the force with which it is attracted to the Earth.",
-        "correct": true
-      },
-      {
-        "text": "not related to mass."
-      }
-    ]
-  },
-  {
     "question": "Which of the following is an example of static friction?",
     "choices": [
       {
@@ -248,24 +158,6 @@
       },
       {
         "text": "Air resistance on a falling object."
-      }
-    ]
-  },
-  {
-    "question": "When a parachutist falls through the air at constant velocity, the air resistance is:",
-    "choices": [
-      {
-        "text": "greater than the weight."
-      },
-      {
-        "text": "equal to the weight.",
-        "correct": true
-      },
-      {
-        "text": "less than the weight."
-      },
-      {
-        "text": "zero."
       }
     ]
   },
@@ -288,24 +180,6 @@
     ]
   },
   {
-    "question": "Which of the following statements is true regarding tension in a rope or cable?",
-    "choices": [
-      {
-        "text": "It is always equal to the weight of an object"
-      },
-      {
-        "text": "It is a force that acts perpendicular to the rope"
-      },
-      {
-        "text": "It is always directed upward"
-      },
-      {
-        "text": "It is equal throughout the entire rope",
-        "correct": true
-      }
-    ]
-  },
-  {
     "question": "When a spring is compressed or stretched, the force it exerts is:",
     "choices": [
       {
@@ -320,42 +194,6 @@
       },
       {
         "text": "always zero"
-      }
-    ]
-  },
-  {
-    "question": "In the absence of air resistance, the acceleration of an object in free fall near the surface of the Earth is:",
-    "choices": [
-      {
-        "text": "zero"
-      },
-      {
-        "text": "9.8 m/s² upward"
-      },
-      {
-        "text": "9.8 m/s² downward",
-        "correct": true
-      },
-      {
-        "text": "5 m/s² downward"
-      }
-    ]
-  },
-  {
-    "question": "If an object is at rest on an inclined plane, the normal force exerted by the plane on the object is:",
-    "choices": [
-      {
-        "text": "equal to the object's weight"
-      },
-      {
-        "text": "perpendicular to the plane",
-        "correct": true
-      },
-      {
-        "text": "greater than the object's weight"
-      },
-      {
-        "text": "opposite in direction to the gravitational force"
       }
     ]
   },
@@ -375,15 +213,6 @@
       {"text": "An object in motion will come to rest without a force acting on it."},
       {"text": "An object at rest will remain at rest unless acted upon by an external force", "correct": true},
       {"text": "The velocity of an object is directly proportional to the force applied to it."}
-    ]
-  },
-  {
-    "question": "What is the law of conservation of momentum?",
-    "choices": [
-      {"text": "The total momentum of an isolated system decreases over time."},
-      {"text": "The total momentum of an isolated system remains constant", "correct": true},
-      {"text": "Momentum is only conserved in elastic collisions."},
-      {"text": "Momentum is conserved only for objects at rest."}
     ]
   },
   {
