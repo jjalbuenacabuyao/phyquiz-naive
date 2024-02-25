@@ -3,36 +3,42 @@
     "id": "forces-and-motions-basics",
     "title": "Forces and Motion: Basics",
     "image": "/images/simulations/forces-and-motion-basics.png",
-    "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html"
+    "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html",
+    "subject": "newton"
   },
   {
     "id": "masses-and-springs",
     "title": "Masses and Springs",
     "image": "/images/simulations/masses-and-springs.png",
-    "url": "https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"
+    "url": "https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html",
+    "subject": "newton"
   },
   {
     "id": "friction",
     "title": "Friction",
     "image": "/images/simulations/friction.png",
-    "url": "https://phet.colorado.edu/sims/html/friction/latest/friction_en.html"
+    "url": "https://phet.colorado.edu/sims/html/friction/latest/friction_en.html",
+    "subject": "newton"
   },
   {
     "id": "my-solar-system",
     "title": "My Solar System",
     "image": "/images/simulations/my-solar-system.png",
-    "url": "https://phet.colorado.edu/sims/html/my-solar-system/latest/my-solar-system_en.html"
+    "url": "https://phet.colorado.edu/sims/html/my-solar-system/latest/my-solar-system_en.html",
+    "subject": "kinematics"
   },
   {
     "id": "reactions-and-rates",
     "title": "Reactions and Rates",
     "image": "/images/simulations/reactions-and-rates.png",
-    "url": "https://phet.colorado.edu/sims/html/reactions-and-rates/latest/reactions-and-rates.html?simulation=reactions-and-rates"
+    "url": "https://phet.colorado.edu/sims/html/reactions-and-rates/latest/reactions-and-rates.html?simulation=reactions-and-rates",
+    "subject": "kinematics"
   },
   {
     "id": "the-moving-man",
     "title": "The Moving Man",
     "image": "/images/simulations/the-moving-man.png",
-    "url": "https://phet.colorado.edu/sims/cheerpj/moving-man/latest/moving-man.html?simulation=moving-man"
+    "url": "https://phet.colorado.edu/sims/cheerpj/moving-man/latest/moving-man.html?simulation=moving-man",
+    "subject": "kinematics"
   }
 ]
