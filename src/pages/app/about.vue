@@ -34,14 +34,14 @@ definePage({
       <div class="text-xl font-semibold">
         Reference for Module
       </div>
-      <div>Physics Classroom</div>
+      <div>The physics classroom. (n.d.).<br /><a class="text-sky-500" href="https://www.physicsclassroom.com/">https://www.physicsclassroom.com/</a></div>
     </div>
 
     <div class="mt-6">
       <div class="text-xl font-semibold">
         Reference for Simulation
       </div>
-      <div>PhET Application</div>
+      <div>PhET. (n.d.). <br /><a class="text-sky-500" href="https://phet.colorado.edu/en/simulations">https://phet.colorado.edu/en/simulations</a></div>
     </div>
 
     <div class="mt-6 bg-gray-100 p-4 text-gray-800">
