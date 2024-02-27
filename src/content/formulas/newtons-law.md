@@ -16,21 +16,18 @@ A vector quantity that refers to "how far out of place an object is"; it is the 
 
 The distance traveled divided by the time of travel.
 
-<!-- ![img.png](/images/formulas/kinematics/img.png) -->
 <p style="color: red;">$$\text{Average Speed} = \frac{\text{Distance traveled}}{\text{Time of travel}}$$</p>
 
 ## Average Velocity
 
 The displacement or change in position divided by the time of travel.
 
-<!-- ![img_1.png](/images/formulas/kinematics/img_1.png) -->
 <p style="color: red;">$$\text{Average Velocity} = \frac{\text{position}}{\text{time}} = \frac{\text{displacement}}{\text{Time}}$$</p>
 
 ## Average Acceleration
 
 The change in velocity divided by the time of travel.
 
-<!-- ![img_2.png](/images/formulas/kinematics/img_2.png) -->
 <p style="color: red;">$$\text{Average Acceleration} = \frac{\text{velocity}}{\text{Time}} = \frac{V_f - V_i}{t}$$</p>
 
 ## Slope
@@ -132,7 +129,6 @@ For every action, there is an equal and opposite reaction.
 
 Force applied to an object by a person or another object.
 
-<!-- ![img.png](/images/formulas/newton/img.png) -->
 <p style="color: red;">F = m•a</p>
 
 Where
@@ -145,7 +141,6 @@ Where
 
 Force of attraction between two masses due to gravity.
 
-<!-- ![img_1.png](/images/formulas/newton/img_1.png) -->
 <p style="color: red;">$$F = \frac{Gm_1m_2}{R^2}$$</p>
 
 Where
@@ -159,7 +154,6 @@ Where
 
 Perpendicular force exerted by a surface to support an object resting on it.
 
-<!-- ![img_2.png](/images/formulas/newton/img_2.png) -->
 <p style="color: red;">F = m • a</p>
 
 Where
@@ -172,8 +166,6 @@ Where
 
 Force resisting the motion or tendency of motion between two surfaces.
 
-<!-- ![img_3.png](/images/formulas/newton/img_3.png)
-![img_4.png](/images/formulas/newton/img_4.png) -->
 <p style="color: red;">F=μ N</p>
 
 Where
@@ -186,7 +178,6 @@ Where
 
 Force opposing the motion of an object through the air.
 
-<!-- ![img_5.png](/images/formulas/newton/img_5.png) -->
 <p style="color: red;">$$F_p = \frac{1}{2} \cdot p \cdot A \cdot C_p \cdot v^2$$</p>
 
 Where
@@ -201,7 +192,6 @@ Where
 
 Force transmitted through a string, rope, cable or wire when it is pulled tight by forces acting from opposite ends.
 
-<!-- ![img_6.png](/images/formulas/newton/img_6.png) -->
 <p style="color: red;">FT = mg + ma</p>
 
 Where
@@ -215,7 +205,6 @@ Where
 
 Force exerted by a spring on an object.
 
-<!-- ![img_7.png](/images/formulas/newton/img_7.png) -->
 <p style="color: red;">F = -kx</p>
 
 where
